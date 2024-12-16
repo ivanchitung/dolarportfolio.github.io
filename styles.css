@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #3B1C32, #1A1A1D);
+  color: white;
+  font-family:'Pixelify Sans';
+}
+
+
+#profile {
+  background-color: #1E201E;
+  color: white;
+  font-family: 'Brush Script MT';
+  background-image: url('images/pg1.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  padding: 50px 0; 
+}
+
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid #6A1E55;
+}
+.name{
+  font-family: "Garamond", serif;
+  font-size: 10ch;
+}
+.skills{
+  font-family: "serif";
+  font-size: 3ch;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+#about,#projects, #contact {
+  background-color: #1E201E;
+  font-family:'Pixelify Sans';
+  color: white;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to right, #A64D79, #531441);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: linear-gradient(to right, #3B1C32, #1A1A1D);
+  color: white;
+}
